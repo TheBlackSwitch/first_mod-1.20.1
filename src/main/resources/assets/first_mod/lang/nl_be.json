@@ -1,3 +1,11 @@
 {
-  "item.first_mod.polished_amethyst": "Gepolijste Amethist"
+  "item.first_mod.polished_amethyst": "Gepolijste Amethist",
+  "item.first_mod.polished_amethyst_nugget": "Gepolijste Ametisten Klompje",
+  "item.first_mod.sand_paper": "Schuur Papier",
+
+  "block.first_mod.polished_amethyst_block": "Gepolijste Ametisten Blok",
+  "block.first_mod.polished_amethyst_tiles": "Geploijste Ametisten Tegels",
+
+  "creative_tab.first_mod_items": "First Mod Voorwerpen",
+  "creative_tab.first_mod_blocks": "First Mod Blokken"
 }

@@ -1,0 +1,22 @@
+{
+  "type": "",
+  "result": {
+    "count": 1,
+    "item": "minecraft:diamond"
+  },
+  "key": {
+    "A": {
+      "item": "minecraft:oak_log"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "AAAAA",
+    "AAAAA",
+    "AABAA",
+    "AAAAA",
+    "AAAAA"
+  ],
+}

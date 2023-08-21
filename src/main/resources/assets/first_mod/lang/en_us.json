@@ -1,3 +1,11 @@
 {
-  "item.first_mod.polished_amethyst": "Polished Amethyst"
+  "item.first_mod.polished_amethyst": "Polished Amethyst",
+  "item.first_mod.polished_amethyst_nugget": "Polished Amethyst Nugget",
+  "item.first_mod.sand_paper": "Sand Paper",
+
+  "block.first_mod.polished_amethyst_block": "Block Of Polished Amethyst",
+  "block.first_mod.polished_amethyst_tiles": "Polished Amethyst Tiles",
+
+  "creative_tab.first_mod_items": "First Mod Items",
+  "creative_tab.first_mod_blocks": "First Mod Blocks"
 }

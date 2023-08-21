@@ -1,7 +1,6 @@
 package net.theblackswitch.first_mod;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,6 +14,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.theblackswitch.first_mod.block.ModBlocks;
+import net.theblackswitch.first_mod.item.ModCreativeTabs;
 import net.theblackswitch.first_mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -29,6 +30,8 @@ public class FirstMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModCreativeTabs.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -53,6 +56,7 @@ public class FirstMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.POLISHED_AMETHYST);
+            event.accept(ModItems.POLISHED_AMETHYST_NUGGET);
         }
     }
 
