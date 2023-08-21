@@ -1,0 +1,47 @@
+{
+  "amethyst_tiles_break": {
+    "subtitle": "sound.block.amethyst_tiles.step",
+    "sounds": [
+      "first_mod:block/amethyst_tiles/place1",
+      "first_mod:block/amethyst_tiles/place2",
+      "first_mod:block/amethyst_tiles/place3",
+      "first_mod:block/amethyst_tiles/place4"
+    ]
+  },
+  "amethyst_tiles_place": {
+    "subtitle": "sound.block.amethyst_tiles.place",
+    "sounds": [
+      "first_mod:block/amethyst_tiles/place1",
+      "first_mod:block/amethyst_tiles/place2",
+      "first_mod:block/amethyst_tiles/place3",
+      "first_mod:block/amethyst_tiles/place4"
+    ]
+  },
+  "amethyst_tiles_hit": {
+    "subtitle": "sound.block.amethyst_tiles.hit",
+    "sounds": [
+      "first_mod:block/amethyst_tiles/step1",
+      "first_mod:block/amethyst_tiles/step2",
+      "first_mod:block/amethyst_tiles/step3",
+      "first_mod:block/amethyst_tiles/step4"
+    ]
+  },
+  "amethyst_tiles_step": {
+    "subtitle": "sound.block.amethyst_tiles.step",
+    "sounds": [
+      "first_mod:block/amethyst_tiles/step1",
+      "first_mod:block/amethyst_tiles/step2",
+      "first_mod:block/amethyst_tiles/step3",
+      "first_mod:block/amethyst_tiles/step4"
+    ]
+  },
+  "amethyst_tiles_fall": {
+    "subtitle": "sound.block.amethyst_tiles.fall",
+    "sounds": [
+      "first_mod:block/amethyst_tiles/step1",
+      "first_mod:block/amethyst_tiles/step2",
+      "first_mod:block/amethyst_tiles/step3",
+      "first_mod:block/amethyst_tiles/step4"
+    ]
+  }
+}

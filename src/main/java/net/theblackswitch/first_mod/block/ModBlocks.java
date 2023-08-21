@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.theblackswitch.first_mod.FirstMod;
 import net.theblackswitch.first_mod.item.ModItems;
+import net.theblackswitch.first_mod.sound.ModSoundType;
 
 import java.util.function.Supplier;
 
@@ -21,6 +22,7 @@ public class ModBlocks {
     public static RegistryObject<Block> POLISHED_AMETHYST_BLOCK = registerBlock("polished_amethyst_block",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.AMETHYST_BLOCK)
+                    .sound(SoundType.AMETHYST)
                         .lightLevel((p_220869_)->{
                             return 5;
                         })
@@ -30,7 +32,7 @@ public class ModBlocks {
     public static RegistryObject<Block> POLISHED_AMETHYST_TILES = registerBlock("polished_amethyst_tiles",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.STONE_BRICKS)
-                        .sound(SoundType.AMETHYST)
+                        .sound(ModSoundType.AMETHYST_TILES)
                         .lightLevel((p_220869_)->{
                             return 6;
                         })

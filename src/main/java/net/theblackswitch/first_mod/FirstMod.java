@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.theblackswitch.first_mod.block.ModBlocks;
 import net.theblackswitch.first_mod.item.ModCreativeTabs;
 import net.theblackswitch.first_mod.item.ModItems;
+import net.theblackswitch.first_mod.sound.ModSoundEvents;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,6 +32,7 @@ public class FirstMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSoundEvents.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
 
         // Register the commonSetup method for modloading

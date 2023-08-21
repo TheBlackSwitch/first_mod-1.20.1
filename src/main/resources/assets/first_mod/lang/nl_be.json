@@ -7,5 +7,11 @@
   "block.first_mod.polished_amethyst_tiles": "Geploijste Ametisten Tegels",
 
   "creative_tab.first_mod_items": "First Mod Voorwerpen",
-  "creative_tab.first_mod_blocks": "First Mod Blokken"
+  "creative_tab.first_mod_blocks": "First Mod Blokken",
+
+  "sound.block.amethyst_tiles.break": "Blok Gebroken",
+  "sound.block.amethyst_tiles.place": "Blok Geplaatst",
+  "sound.block.amethyst_tiles.hit": "Blok Breken",
+  "sound.block.amethyst_tiles.step": "Voetstappen",
+  "sound.block.amethyst_tiles.fall": "Iets Viel"
 }

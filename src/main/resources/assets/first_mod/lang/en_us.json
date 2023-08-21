@@ -7,5 +7,12 @@
   "block.first_mod.polished_amethyst_tiles": "Polished Amethyst Tiles",
 
   "creative_tab.first_mod_items": "First Mod Items",
-  "creative_tab.first_mod_blocks": "First Mod Blocks"
+  "creative_tab.first_mod_blocks": "First Mod Blocks",
+
+  "sound.block.amethyst_tiles.break": "Block Broken",
+  "sound.block.amethyst_tiles.place": "Block Placed",
+  "sound.block.amethyst_tiles.hit": "Block Breaking",
+  "sound.block.amethyst_tiles.step": "Footsteps",
+  "sound.block.amethyst_tiles.fall": "Entity Fell"
+
 }
